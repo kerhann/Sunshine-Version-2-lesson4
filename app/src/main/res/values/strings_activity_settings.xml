@@ -1,0 +1,30 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_country">Country code</string>
+    <string name="pref_key_country" translatable="false">country</string>
+    <string name="pref_default_country" translatable="false">BE</string>
+
+    <string name="pref_postal_code">Postal code</string>
+    <string name="pref_key_postal_code" translatable="false">postal_code</string>
+    <string name="pref_default_postal_code" translatable="false">1180</string>
+
+    <string name="pref_title_temperature">Temperature units</string>
+    <string name="pref_key_temperature" translatable="false">temperature</string>
+    <string name="pref_default_temperature" translatable="false">metric</string>
+    <string-array name="pref_temperature_list_titles">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_temperature_list_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+
+</resources>
